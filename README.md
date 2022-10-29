@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Adminapp is a modern admin template. This admin template is developed with Tailwind CSS. It is currently under development. Not ready for use yet. It will be ready for use as soon as possible.
+
+Note: This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<span style="color:red">## Currently in Development</span>.
 
 ## Getting Started
 
