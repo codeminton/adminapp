@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu {
+    width: 350px;
+}
+
+nav a.open .icon-tabler-chevron-left {
+    transform: rotate(-90deg);
+}
+
+nav a.open+nav {
+    display: flex;
+}
+
+nav nav:before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    top: 1rem;
+    bottom: 1rem;
+    right: auto;
+    margin-left: 2.3rem;
+    background: rgba(255, 255, 255, 0.20);
+    width: 1px;
+}
+
+nav nav a {
+    padding-left: 4.3rem !important;
+}
+
+.nav-link {
+    @apply flex items-center gap-4 whitespace-nowrap text-white/70 pl-6 pr-2 py-4 rounded-tr-3xl rounded-br-3xl text-lg;
+}
+
+.nav-link.active {
+    @apply text-white font-medium bg-cyan-600;
+}
+
+.sub-nav-link {
+    @apply flex items-center gap-4 whitespace-nowrap text-white/70 pl-6 py-3 rounded-tr-3xl rounded-br-3xl font-extralight text-sm;
+}
+
+.sub-nav-link.active {
+    @apply text-white;
+}
