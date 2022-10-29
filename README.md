@@ -2,7 +2,7 @@ Adminapp is a modern admin template. This admin template is developed with Tailw
 
 Note: This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<span style="color:red">## Currently in Development</span>.
+## <span style="color:red">Currently in Development</span>.
 
 ## Getting Started
 
